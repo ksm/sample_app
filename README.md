@@ -1,8 +1,8 @@
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
+[_Ruby on Rails Tutorial:
+Learn Web Development with Rails_](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
 ## License
@@ -16,26 +16,26 @@ is available jointly under the MIT License and the Beerware License. See
 To get started with the app, clone the repo and then install the needed gems:
 
 ```
-$ bundle install --without production
+$ bundle install --without production --path vendor/bundle
 ```
 
 Next, migrate the database:
 
 ```
-$ rails db:migrate
+$ bundle exec rails db:migrate
 ```
 
 Finally, run the test suite to verify that everything is working correctly:
 
 ```
-$ rails test
+$ bundle exec rails test
 ```
 
 If the test suite passes, you'll be ready to run the app in a local server:
 
 ```
-$ rails server
+$ bundle exec rails server
 ```
 
 For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+[_Ruby on Rails Tutorial_ book](http://www.railstutorial.org/book).
